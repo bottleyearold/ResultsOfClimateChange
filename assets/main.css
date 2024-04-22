@@ -1,0 +1,26 @@
+body{
+    background-color: #b8cbe0;
+}
+.graph-area {
+    width: 66.66%; /* Adjust width as needed */
+    padding-left: 20px;
+}
+.content-area {
+    display: flex;
+    flex-direction: row; /* Switches the order */
+    justify-content: space-between;
+}
+
+.polar-bear-area{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align children to the left */
+    justify-content: flex-start; /* Align children to the top */
+    width: 33.33%; /* Adjust width as needed */
+    padding: 20px;
+    margin: 0;
+
+}
+.line-chart{
+    width: 400px
+}
