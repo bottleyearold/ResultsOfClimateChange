@@ -5,5 +5,4 @@ scikit_learn
 plotly
 datetime
 dash_bootstrap_components
-math
 gunicorn
