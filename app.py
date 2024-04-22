@@ -9,9 +9,9 @@ import math
 import dash_bootstrap_components as dbc
 
 # Load your data
-data_path = '/Users/fionamagee/Desktop/ResultOfClimateChange/NaturalDisaterDataSet.csv'
+data_path = 'NaturalDisaterDataSet.csv'
 data = pd.read_csv(data_path)
-file_path1 = '/Users/fionamagee/Desktop/ResultOfClimateChange/ChangeInSeaLevels.csv'
+file_path1 = 'ChangeInSeaLevels.csv'
 data1 = pd.read_csv(file_path1)
 
 # Clean the 'Indicator' column
